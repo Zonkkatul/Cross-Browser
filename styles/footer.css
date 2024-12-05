@@ -1,0 +1,30 @@
+.footer {
+  padding: 20px;
+  width: 1109px;
+  height: 23px;
+  margin: 0 auto;
+  background-color: blue;
+  color: brown;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: wheat;
+  text-decoration: none;
+}
+.footer .footer-content {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+}
+.footer .footer-content a {
+  color: teal;
+  text-decoration: none;
+}
+.footer .footer-content a:hover {
+  color: navajowhite;
+}/*# sourceMappingURL=footer.css.map */

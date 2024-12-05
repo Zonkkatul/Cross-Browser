@@ -1,0 +1,27 @@
+.header {
+  width: 1109px;
+  height: 23px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.header .logo {
+  font-size: 23rem;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+.header .menu-item {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+}
+.header .menu-item a {
+  color: blue;
+  text-decoration: none;
+}
+.header .menu-item a:hover {
+  color: palegreen;
+}/*# sourceMappingURL=header.css.map */
