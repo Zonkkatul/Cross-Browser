@@ -1,0 +1,83 @@
+
+
+
+.project-details {
+    padding: 60px 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.title-section {
+    flex: 2;
+    max-width: 60%;
+}
+
+.title-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.title-section p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+
+.detail-heading {
+    font-size: 14px;
+    color: #888888;
+    font-weight: normal;
+    padding: 22px;
+}
+
+.detail-info {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+}
+
+.gallery-item {
+    padding: 10px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .service-content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .service-year {
+        text-align: left;
+        margin-top: 10px;
+    }
+}

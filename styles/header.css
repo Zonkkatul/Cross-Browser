@@ -1,27 +1,67 @@
-.header {
-  width: 1109px;
-  height: 23px;
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
 }
-.header .logo {
-  font-size: 23rem;
-  font-weight: bold;
-  color: blue;
-  text-decoration: none;
-}
-.header .menu-item {
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  gap: 30px;
-  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.header .menu-item a {
-  color: blue;
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
   text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
-.header .menu-item a:hover {
-  color: palegreen;
-}/*# sourceMappingURL=header.css.map */
+
+.nav-menu li a:hover {
+  color: #666666;
+}
