@@ -1,3 +1,8 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'main.css';
+@import 'contact.css';
 .project-details {
   padding: 60px 0;
 }
@@ -77,6 +82,7 @@
 }
 
 .gallery-item {
+  margin: 10px 0;
   padding: 10px;
 }
 
@@ -96,5 +102,20 @@
   .service-year {
     text-align: left;
     margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .content-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .title-section {
+    max-width: 100%;
+  }
+  .details-container {
+    padding-left: 0;
   }
 }

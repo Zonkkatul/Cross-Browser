@@ -1,7 +1,22 @@
-footer {
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
   width: 100%;
-  height: 100px;
+  padding: 20px 0;
   background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,14 +26,54 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-top: 1px solid #ccc;
+  padding: 0 40px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #666666;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
 }
 
 .footer-container {
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
@@ -30,25 +85,12 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 40px;
 }
 
-.footer-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 20px;
+.footer-logo img {
+  width: 100px;
+  height: auto;
 }
 
 .footer-menu {
@@ -56,18 +98,21 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 40px;
   margin: 0;
   padding: 0;
-}
-
-.footer-menu li {
-  display: inline-block;
+  margin-left: auto;
 }
 
 .footer-menu li a {
   text-decoration: none;
-  font-size: 16px;
-  color: black;
-  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer-menu li a:hover {
+  color: #666666;
 }

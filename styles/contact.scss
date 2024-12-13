@@ -1,3 +1,9 @@
+@import 'reset.css'; 
+@import 'header.css';
+@import 'footer.css';
+@import 'main.css';
+@import 'projects.css';
+
 .intro-form {
     padding: 80px 40px;
     max-width: 1200px;
@@ -13,18 +19,20 @@
 
 .intro-text h2 {
     font-size: 36px;
-    width: 475px;  
+    max-width: 375px;  
     height: 174px; 
     font-size: 36px; 
     font-weight: 700;
     line-height: 1.2; 
     margin: 0; 
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .intro-text p {
     font-size: 18px;
     color: #666666;
+    max-width: 395px;  
+
 }
 
 .contact-form {
@@ -80,3 +88,5 @@
     height: auto;
     border-radius: 10px;
 }
+
+
