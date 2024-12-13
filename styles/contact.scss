@@ -77,16 +77,9 @@
 }
 
 /* Map */
-.map {
-    margin-top: 50px;
-    max-width: 1200px;
-    margin: 50px auto;
-}
 
-.map img {
-    width: 100%;
-    height: auto;
+
+.map iframe {
     border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-
